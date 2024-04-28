@@ -45,4 +45,4 @@ function camelot(data) {
 
 }
 
-camelot("Bb");
+camelot("C");
