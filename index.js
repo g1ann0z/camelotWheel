@@ -29,7 +29,7 @@ function camelot(data) {
         data = "Am#";
     }
 
-    //if (data === "C" || data === "C#" || data === "D" || data === "D#" || data === "E" || data === "F" || data === "F#" || data === "G" || data === "G#" || data === "A" || data === "A#" || data === "B") {
+    
     if(camelotWheel.includes(data)){   
         while (tunrArray[0] !== data) {
             tunrArray.push(tunrArray.shift());
